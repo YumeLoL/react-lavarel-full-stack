@@ -17,6 +17,7 @@ export default function Index({ auth, projects, queryParams = null, success }) {
     } else {
       delete queryParams[name];
     }
+    console.log("check query", queryParams);
 
     router.get(route("project.index"), queryParams);
   };
