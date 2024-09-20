@@ -4,7 +4,7 @@ import {
   PROJECT_STATUS_CLASS_MAP,
   PROJECT_STATUS_TEXT_MAP,
 } from "@/constants.jsx";
-import TasksTable from "../Task/TasksTable";
+import TasksTable from "@/Components/TasksTable";
 export default function Show({ auth, success, project, tasks, queryParams }) {
   return (
     <AuthenticatedLayout
